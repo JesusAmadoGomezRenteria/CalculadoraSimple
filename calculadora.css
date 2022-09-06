@@ -1,0 +1,42 @@
+h1{
+    color: hwb(240 0% 0% / 0.717);
+    font: 3em arial black;
+}
+h2{
+    color: hwb(240 0% 0% / 0.717);
+    font: 1em arial;
+}
+button{
+    width: 150px; /*Colocamos el largo del boton*/
+    font-size: 50px;
+    color: ghostwhite;
+    background-color: rgb(93, 93, 236);
+    text-shadow: 1px 1px 18px black;/*Aplicamos sombras al texto del boton*/
+}
+button1{
+    font-size: 60px;/*Colocamos el alto del boton */
+    color: ghostwhite;
+    background-color:  rgb(93, 93, 236);
+    text-shadow: 1px 1px 18px black;/*Aplicamos sombras al texto del boton*/
+    padding:    0px 30px; /*Colocamos los margenes del boton */
+}
+
+.ac {
+    color: white;
+} /* */
+
+div{
+    text-align:center;  /* Centramos todo lo que esta dentro del div*/
+    margin-top: 0px; margin-bottom: 0px; 
+    
+}
+div1{
+    margin: 5px;
+    width: 50px; 
+    height: 80px;    
+}
+body{
+    background-color: rgb(253, 248, 248);
+}
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
+<meta charset="utf-8"> 
+<title>Calculadora</title> 
+</head>
+<body>
+  
+  <h1><center>CALCULADORA SIMPLE</center></h1> <!--Creamos el titulo -->
+<div>
+  <table >
+    <tr>
+     <button1 id="result">0</button>
+      
+    </tr>
+  </table>
+
+  
+    
+</div>
+
+<div style="padding:5px;"><!--Aplicamos espacio al div -->
+  <button onclick="add('1')"value="1">1</button>
+  <button onclick="add('2')" value="2">2</button>
+  <button onclick="add('3')" value="3">3</button>
+  <button onclick="add('+')">+</button>
+  <button onclick="add('-')">-</button>
+</div>
+
+<div>
+  <button onclick="add('4')" value="4">4</button>
+  <button onclick="add('5')" value="5">5</button>
+  <button onclick="add('6')" value="6">6</button>
+  <button colspan onclick="add('*')">*</button>
+  <button onclick="add('/')">/</button>
+</div>
+
+<div style="padding:5px;"><!--Aplicamos espacio al div -->
+  <button onclick="add('7')" value="7">7</button>
+  <button onclick="add('8')" value="8">8</button>
+  <button onclick="add('9')" value="9">9</button>
+  <button onclick="add('0')">0</button>
+  <button onclick="add('.')">.</button>
+  
+</div> <!--  -->
+
+<div>
+  <button onclick="del()" class="ac">Ac</button>
+  <button onclick="calc()">=</button>
+</div>
+
+<div style="padding:350px;">
+  <h2>Creado por: Jesús Amado Gómez Rentería</h2>
+</div>
+
+</body>
+</html>
